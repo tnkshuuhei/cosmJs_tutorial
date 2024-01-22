@@ -4,7 +4,7 @@
   "description": "Experiment with simple CosmJS concepts.",
   "main": "index.js",
   "scripts": {
-    "experiment": "ts-node experiment.ts",
+    "experiment": "ts-node transferMycel.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "B9lab",
@@ -13,6 +13,10 @@
     "ts-node": "10.7.0"
   },
   "dependencies": {
-    "@cosmjs/stargate": "0.28.2"
+    "@cosmjs/cosmwasm-stargate": "^0.32",
+    "@cosmjs/encoding": "^0.32.2",
+    "@cosmjs/proto-signing": "^0.32.2",
+    "@cosmjs/stargate": "0.32.2",
+    "fs": "0.0.1-security"
   }
 }
